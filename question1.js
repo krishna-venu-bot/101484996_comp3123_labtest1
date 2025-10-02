@@ -9,7 +9,7 @@ function lowerCaseWords(mixedArray) {
                 .map(str => str.toLowerCase());
             resolve(result);
         } catch (error) {
-            reject("⚠️ An error occurred: " + error);
+            reject("An error occurred: " + error);
         }
     });
 }
